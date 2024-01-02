@@ -1,8 +1,7 @@
 
-import { useState } from "react";
 import type { Metadata } from 'next'
-import ContadorPage from "@/app/components/Contador";
-import Contador from "@/app/components/Contador";
+import Contador from "@/components/Contador";
+
 
 
 

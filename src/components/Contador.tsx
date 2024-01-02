@@ -20,7 +20,7 @@ export default function Contador({ value }: Props) {
 
 
   return (
-    <div className="flex flex-col items-center justify-center w-full h-full">
+    <div className="w-full h-screen flex flex-col items-center justify-center">
         <span>Productos en el carrito de compras</span>
         <span className="text-9xl">{ contador }</span>
 

@@ -27,11 +27,11 @@ const menuItems = [
 
 function SideBar() {
     return (
-        <div style= {{width:'400px'}} id="menu" className="bg-gray-900 min-h-screen z-10 text-slate-300 w-64  left-0 h-screen overflow-y-scroll">
+        <div style= {{width:'400px'}} id="menu" className="bg-gray-900 min-h-screen z-10 text-slate-300 w-64 h-screen ">
 
-            <div  id="logo" className="my-4 px-6">
+            <div  id="logo" className="px-6">
 
-                <h1 className="text-lg md:text-2xl font-bold text-white">Ge<span className="text-blue-500">Ser</span>.</h1>
+                <h1 className="text-lg md:text-2xl font-bold text-white pt-5">Ge<span className="text-blue-500">Ser</span>.</h1>
                 <p className="text-slate-500 text-sm">Gestión de consumos de servicios</p>
             </div>
             <div id="profile" className="px-6 py-10">
